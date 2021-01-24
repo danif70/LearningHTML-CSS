@@ -1,25 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 input {
     width: 10%;
 }
+
 main {
-    width: 50%;
+    width: 100%;
     background-color: #fbfbfb;
+    padding: 20px 35px 20px 35px; 
 }
+
 figure {
-    padding:50px 50px 50px 50px;
-    width: 100px;
+    padding:50px 0px 50px 0px;
+    width: 100%;
+    display:inline-block;
+    margin:auto;
+}
+ul {
+    display: inline;
 }
 
 .main-header {
     background-color: 	#70e000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     border: 3px solid #6d7471;
-    margin: 20px 10px 5px 10px;
-    width: 50%;
+    margin-left: 0;
+    margin-bottom: 10px;
+    width: 100%;
     color: white;
     
 }
+
 .main-header_h1 {
     font-size: 28px;
 }
@@ -28,50 +43,61 @@ figure {
     font-size: 24px;
     color:#6d7471;
 }
+
 .main-body {
-    width:90% ;
+    width:100% ;
     padding: 60px 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:left;
-    
+    text-align:center;
 }
 
-.main-ul a {
+.main-ul li 
+{
+    
+    
+    margin:auto; 
+    text-align: center;  
     list-style:none;
+    
+   
+}
+
+.main-ul a
+{
     font-size: 20px;
+    font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
-    background-color: #ccff33;
-    font-style: italic;
     color: #6d7471;
-    width: 50%;
-    display: block;
-    
+    background-color: #ccff33;
+    border: 3px solid #6d7471;
 }
-
-.main-ul a:hover {
+.main-ul a:hover 
+{
     color: blue
 }
 
-.main-footer {
+.main-footer 
+{
     color: white;
     background-color: #70e000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
     border: 3px solid #6d7471;
-    width: 50%;
+    
 }
 
-.main-h3 {
+.main-h3 
+{
     font-size: 24px;
-    text-align: left;
-    margin: 50px;
-    color: #6d7471;
-    background-color: #ccff33;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #38B000;
+    border: 3px solid #6d7471;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/*main {
-    width:90% ;
-    padding: 20px 35px;
-}
+
 
