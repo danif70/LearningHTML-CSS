@@ -3,19 +3,24 @@
     padding: 0;
     margin: 0;
 }
-
+html {
+    font-size: 62.5%;
+}
 input {
-    width: 10%;
+    width: 4rem;
+    margin-top: 1rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
 }
 
 main {
     width: 100%;
     background-color: #fbfbfb;
-    padding: 20px 35px 20px 35px; 
+    padding: 2rem 3.5rem 2rem 3.5rem; 
 }
 
 figure {
-    padding:50px 0px 50px 0px;
+    padding:2rem 0rem 3rem 0rem;
     width: 100%;
     display:inline-block;
     margin:auto;
@@ -27,26 +32,26 @@ ul {
 .main-header {
     background-color: 	#70e000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 3px solid #6d7471;
+    border: 0.3rem solid #6d7471;
     margin-left: 0;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     width: 100%;
     color: white;
     
 }
 
 .main-header_h1 {
-    font-size: 28px;
+    font-size: 2.8rem;
 }
 
 .main-header_h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
     color:#6d7471;
 }
 
 .main-body {
     width:100% ;
-    padding: 60px 35px;
+    padding: 6rem 3.5rem;
     text-align:center;
 }
 
@@ -63,13 +68,13 @@ ul {
 
 .main-ul a
 {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     color: #6d7471;
     background-color: #ccff33;
-    border: 3px solid #6d7471;
+    border: 0.3rem solid #6d7471;
 }
 .main-ul a:hover 
 {
@@ -81,21 +86,22 @@ ul {
     color: white;
     background-color: #70e000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 3px solid #6d7471;
+    border: 0.3rem solid #6d7471;
+    font-size: 1.5rem;
     
 }
 
 .main-h3 
 {
-    font-size: 24px;
+    font-size: 2.4rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
     color: white;
     background-color: #38B000;
-    border: 3px solid #6d7471;
+    border: 0.3rem solid #6d7471;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
